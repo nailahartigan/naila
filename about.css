@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+.title{
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 350%;
+    font-weight: bolder;
+    text-align: center;
+
+    
+}
+
+.write{
+    display: flex;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+body{
+    background-color: cadetblue;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.booknow-btn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(white,hsla(0, 26%, 4%, 0.952)),radial-gradient(circle at top left,white,green);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    cursor: pointer;
+}
+
+.booknow-btn span{
+    padding: 8px 22px;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 220px;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.nav_bar{
+    display: flex;
+    width: 75%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    width: 99%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+p {
+    text-align: justify;
+    font-size: large;
+    color: white;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: white;
+    margin: 0px 5px 0px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
